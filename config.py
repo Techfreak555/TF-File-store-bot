@@ -10,14 +10,14 @@ API_ID = int(os.environ.get("API_ID", ""))
 API_HASH = os.environ.get("API_HASH", "")
 
 
-OWNER_ID = int(os.environ.get("OWNER_ID", "6299192020"))
-DB_URL = os.environ.get("DB_URL", "")
-DB_NAME = os.environ.get("DB_NAME", "Tecfreaktamil")
+OWNER_ID = int(os.environ.get("OWNER_ID", "7814938492"))
+DB_URL = os.environ.get("DB_URL", "7980892408:AAFtqEc0iFRfli8VZTHZ-ekqEJDwXX-vt7A")
+DB_NAME = os.environ.get("DB_NAME", "PRMoviestamil")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003094784222"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003353535616"))
 
-FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1003056865925"))
+FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1003367168355"))
 
 FORCE_SUB_CHANNEL_2 = int(os.environ.get("FORCE_SUB_CHANNEL_2", "0"))
 
@@ -53,7 +53,7 @@ except ValueError:
 
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
-PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
+PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" else False
 
 DISABLE_CHANNEL_BUTTON = True if os.environ.get('DISABLE_CHANNEL_BUTTON', None) == "True" else False
 
