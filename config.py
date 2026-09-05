@@ -5,30 +5,30 @@ from logging.handlers import RotatingFileHandler
 
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8727214435:AAHhXsoIXWrPqcJqS35h7HIKaQ7A97PzBPo")
+API_ID = int(os.environ.get("API_ID", "32640560"))
+API_HASH = os.environ.get("API_HASH", "9928ff9a665383ea6e64620b47e60219")
 
 
-OWNER_ID = int(os.environ.get("OWNER_ID", "6299192020"))
-DB_URL = os.environ.get("DB_URL", "")
-DB_NAME = os.environ.get("DB_NAME", "Tecfreaktamil")
+OWNER_ID = int(os.environ.get("OWNER_ID", "8534898408"))
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://mutalfull_db_user:VVyCbIYxEiXljLrx@cluster0.a1ngo8v.mongodb.net/")
+DB_NAME = os.environ.get("DB_NAME", "Devil")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003094784222"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003960256724"))
 
-FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1003056865925"))
+FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1003966813437"))
 
-FORCE_SUB_CHANNEL_2 = int(os.environ.get("FORCE_SUB_CHANNEL_2", "0"))
+FORCE_SUB_CHANNEL_2 = int(os.environ.get("FORCE_SUB_CHANNEL_2", "-1003170688412"))
 
-FORCE_SUB_CHANNEL_3 = int(os.environ.get("FORCE_SUB_CHANNEL_3", "0"))
+FORCE_SUB_CHANNEL_3 = int(os.environ.get("FORCE_SUB_CHANNEL_3", "-1003966813437"))
 
-FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "0"))
+FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "-1003753378353"))
 
 START_PIC = os.environ.get("START_PIC", "https://files.catbox.moe/ufzpkn.jpg")
 F_PIC = os.environ.get("FORCE_PIC", "https://files.catbox.moe/ufzpkn.jpg")
 
-FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "1800")) # auto delete in seconds
+FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "43200")) # auto delete in seconds
 
 
 PORT = os.environ.get("PORT", "8050")
@@ -37,8 +37,8 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 
 try:
-    ADMINS=[6299192020 ,6016699737, 5000956033]
-    for x in (os.environ.get("ADMINS", "6299192020").split()):
+    ADMINS=[8534898408]
+    for x in (os.environ.get("ADMINS", "8534898408").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -75,7 +75,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝐒𝐨𝐫𝐫𝐲 {first} Yo
 
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6299192020)
+ADMINS.append(8534898408)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
